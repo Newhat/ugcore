@@ -63,7 +63,7 @@ Starting from *UG4's* root directory, please execute the following to build *UG4
 
     mkdir build
     cd build
-    cmake -DENABLE_ALL_PLUGINS=ON -DDIM="2;3" -DCPU="1;2" -DCMAKE_BUILD_TYPE=Release ..
+    cmake -DENABLE_ALL_PLUGINS=ON -DDIM="1;2;3" -DCPU="1;2" -DCMAKE_BUILD_TYPE=Release ..
     make -j
     cd ..
 
