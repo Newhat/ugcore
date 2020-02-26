@@ -177,8 +177,10 @@ class LinearSolver
 		//	write some information when ending the iteration
 			if(!convergence_check()->post())
 			{
+				/*
 				UG_LOG("ERROR in 'LinearSolver::apply': post-convergence-check "
 						"signaled failure. Aborting.\n");
+				*/
 				return false;
 			}
 
